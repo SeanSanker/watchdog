@@ -63,7 +63,7 @@ if get_platform().startswith('macosx'):
                 '-Werror',
                 '-Wextra',
                 '-fPIC',
-                '-mmacosx-version-min=10.x',
+                '-mmacosx-version-min=10.13',
                 # required w/Xcode 5.1+ and above because of '-mno-fused-madd'
                 '-Wno-error=unused-command-line-argument'
             ]
